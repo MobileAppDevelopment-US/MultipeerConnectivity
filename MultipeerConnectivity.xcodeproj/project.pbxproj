@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE03728F1F87673D0076C1BC /* DrawingPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = CE03728E1F87673C0076C1BC /* DrawingPoint.m */; };
+		CE104ABB1F83B0F200B5D0EB /* DrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE104ABA1F83B0F200B5D0EB /* DrawingViewController.m */; };
+		CE104ABD1F83B10100B5D0EB /* DrawingViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE104ABC1F83B10100B5D0EB /* DrawingViewController.storyboard */; };
+		CE104AC01F83B2DB00B5D0EB /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE104ABF1F83B2DB00B5D0EB /* DrawingView.m */; };
+		CE104AC31F85236700B5D0EB /* ShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE104AC21F85236600B5D0EB /* ShowView.m */; };
+		CE25251F1F8B7BF700DF7576 /* DeviceNetworkConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = CE25251E1F8B7BF700DF7576 /* DeviceNetworkConnection.m */; };
+		CEF78FF01F8262C500BEC0E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF78FEF1F8262C500BEC0E9 /* AppDelegate.m */; };
+		CEF78FF31F8262C500BEC0E9 /* MultipeerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF78FF21F8262C500BEC0E9 /* MultipeerViewController.m */; };
+		CEF78FF61F8262C500BEC0E9 /* MultipeerViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF78FF41F8262C500BEC0E9 /* MultipeerViewController.storyboard */; };
+		CEF78FF81F8262C500BEC0E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF78FF71F8262C500BEC0E9 /* Assets.xcassets */; };
+		CEF78FFB1F8262C500BEC0E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF78FF91F8262C500BEC0E9 /* LaunchScreen.storyboard */; };
+		CEF78FFE1F8262C500BEC0E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF78FFD1F8262C500BEC0E9 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE03728D1F87673C0076C1BC /* DrawingPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingPoint.h; sourceTree = "<group>"; };
+		CE03728E1F87673C0076C1BC /* DrawingPoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingPoint.m; sourceTree = "<group>"; };
+		CE104AB91F83B0F200B5D0EB /* DrawingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingViewController.h; sourceTree = "<group>"; };
+		CE104ABA1F83B0F200B5D0EB /* DrawingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingViewController.m; sourceTree = "<group>"; };
+		CE104ABC1F83B10100B5D0EB /* DrawingViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DrawingViewController.storyboard; sourceTree = "<group>"; };
+		CE104ABE1F83B2DB00B5D0EB /* DrawingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingView.h; sourceTree = "<group>"; };
+		CE104ABF1F83B2DB00B5D0EB /* DrawingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingView.m; sourceTree = "<group>"; };
+		CE104AC11F85236600B5D0EB /* ShowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowView.h; sourceTree = "<group>"; };
+		CE104AC21F85236600B5D0EB /* ShowView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowView.m; sourceTree = "<group>"; };
+		CE25251D1F8B7BF700DF7576 /* DeviceNetworkConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceNetworkConnection.h; sourceTree = "<group>"; };
+		CE25251E1F8B7BF700DF7576 /* DeviceNetworkConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceNetworkConnection.m; sourceTree = "<group>"; };
+		CEF78FEB1F8262C500BEC0E9 /* MultipeerConnectivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipeerConnectivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF78FEE1F8262C500BEC0E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEF78FEF1F8262C500BEC0E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEF78FF11F8262C500BEC0E9 /* MultipeerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultipeerViewController.h; sourceTree = "<group>"; };
+		CEF78FF21F8262C500BEC0E9 /* MultipeerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultipeerViewController.m; sourceTree = "<group>"; };
+		CEF78FF51F8262C500BEC0E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MultipeerViewController.storyboard; sourceTree = "<group>"; };
+		CEF78FF71F8262C500BEC0E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEF78FFA1F8262C500BEC0E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEF78FFC1F8262C500BEC0E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF78FFD1F8262C500BEC0E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEF78FE81F8262C500BEC0E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE0372901F8767420076C1BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE03728D1F87673C0076C1BC /* DrawingPoint.h */,
+				CE03728E1F87673C0076C1BC /* DrawingPoint.m */,
+				CE25251D1F8B7BF700DF7576 /* DeviceNetworkConnection.h */,
+				CE25251E1F8B7BF700DF7576 /* DeviceNetworkConnection.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE104AC41F85331400B5D0EB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE104ABE1F83B2DB00B5D0EB /* DrawingView.h */,
+				CE104ABF1F83B2DB00B5D0EB /* DrawingView.m */,
+				CE104AC11F85236600B5D0EB /* ShowView.h */,
+				CE104AC21F85236600B5D0EB /* ShowView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE104AC51F85332900B5D0EB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CE0372901F8767420076C1BC /* Model */,
+				CE104AC41F85331400B5D0EB /* Views */,
+				CE104AC61F85333700B5D0EB /* Controllers */,
+				CE104AC71F85334E00B5D0EB /* Storyboards */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CE104AC61F85333700B5D0EB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEF78FF11F8262C500BEC0E9 /* MultipeerViewController.h */,
+				CEF78FF21F8262C500BEC0E9 /* MultipeerViewController.m */,
+				CE104AB91F83B0F200B5D0EB /* DrawingViewController.h */,
+				CE104ABA1F83B0F200B5D0EB /* DrawingViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CE104AC71F85334E00B5D0EB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CEF78FF41F8262C500BEC0E9 /* MultipeerViewController.storyboard */,
+				CE104ABC1F83B10100B5D0EB /* DrawingViewController.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		CE104AC81F85336400B5D0EB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEF78FEE1F8262C500BEC0E9 /* AppDelegate.h */,
+				CEF78FEF1F8262C500BEC0E9 /* AppDelegate.m */,
+				CEF78FF71F8262C500BEC0E9 /* Assets.xcassets */,
+				CEF78FF91F8262C500BEC0E9 /* LaunchScreen.storyboard */,
+				CEF78FFD1F8262C500BEC0E9 /* main.m */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		CEF78FE21F8262C500BEC0E9 = {
+			isa = PBXGroup;
+			children = (
+				CEF78FED1F8262C500BEC0E9 /* MultipeerConnectivity */,
+				CEF78FEC1F8262C500BEC0E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEF78FEC1F8262C500BEC0E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEF78FEB1F8262C500BEC0E9 /* MultipeerConnectivity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEF78FED1F8262C500BEC0E9 /* MultipeerConnectivity */ = {
+			isa = PBXGroup;
+			children = (
+				CEF78FFC1F8262C500BEC0E9 /* Info.plist */,
+				CE104AC51F85332900B5D0EB /* Classes */,
+				CE104AC81F85336400B5D0EB /* Support Files */,
+			);
+			path = MultipeerConnectivity;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEF78FEA1F8262C500BEC0E9 /* MultipeerConnectivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF790011F8262C500BEC0E9 /* Build configuration list for PBXNativeTarget "MultipeerConnectivity" */;
+			buildPhases = (
+				CEF78FE71F8262C500BEC0E9 /* Sources */,
+				CEF78FE81F8262C500BEC0E9 /* Frameworks */,
+				CEF78FE91F8262C500BEC0E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultipeerConnectivity;
+			productName = MultipeerConnectivity;
+			productReference = CEF78FEB1F8262C500BEC0E9 /* MultipeerConnectivity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEF78FE31F8262C500BEC0E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Serik_Klement;
+				TargetAttributes = {
+					CEF78FEA1F8262C500BEC0E9 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CEF78FE61F8262C500BEC0E9 /* Build configuration list for PBXProject "MultipeerConnectivity" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEF78FE21F8262C500BEC0E9;
+			productRefGroup = CEF78FEC1F8262C500BEC0E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEF78FEA1F8262C500BEC0E9 /* MultipeerConnectivity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEF78FE91F8262C500BEC0E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE104ABD1F83B10100B5D0EB /* DrawingViewController.storyboard in Resources */,
+				CEF78FFB1F8262C500BEC0E9 /* LaunchScreen.storyboard in Resources */,
+				CEF78FF81F8262C500BEC0E9 /* Assets.xcassets in Resources */,
+				CEF78FF61F8262C500BEC0E9 /* MultipeerViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEF78FE71F8262C500BEC0E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF78FF31F8262C500BEC0E9 /* MultipeerViewController.m in Sources */,
+				CE25251F1F8B7BF700DF7576 /* DeviceNetworkConnection.m in Sources */,
+				CE104ABB1F83B0F200B5D0EB /* DrawingViewController.m in Sources */,
+				CE03728F1F87673D0076C1BC /* DrawingPoint.m in Sources */,
+				CEF78FFE1F8262C500BEC0E9 /* main.m in Sources */,
+				CE104AC01F83B2DB00B5D0EB /* DrawingView.m in Sources */,
+				CEF78FF01F8262C500BEC0E9 /* AppDelegate.m in Sources */,
+				CE104AC31F85236700B5D0EB /* ShowView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEF78FF41F8262C500BEC0E9 /* MultipeerViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF78FF51F8262C500BEC0E9 /* Base */,
+			);
+			name = MultipeerViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		CEF78FF91F8262C500BEC0E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF78FFA1F8262C500BEC0E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEF78FFF1F8262C500BEC0E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEF790001F8262C500BEC0E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEF790021F8262C500BEC0E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TX466DVBY;
+				INFOPLIST_FILE = MultipeerConnectivity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Serik-Klement.MultipeerConnectivity";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEF790031F8262C500BEC0E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TX466DVBY;
+				INFOPLIST_FILE = MultipeerConnectivity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Serik-Klement.MultipeerConnectivity";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEF78FE61F8262C500BEC0E9 /* Build configuration list for PBXProject "MultipeerConnectivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF78FFF1F8262C500BEC0E9 /* Debug */,
+				CEF790001F8262C500BEC0E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF790011F8262C500BEC0E9 /* Build configuration list for PBXNativeTarget "MultipeerConnectivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF790021F8262C500BEC0E9 /* Debug */,
+				CEF790031F8262C500BEC0E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEF78FE31F8262C500BEC0E9 /* Project object */;
+}
